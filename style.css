@@ -7,9 +7,13 @@ body{
     display: flex;
     height: 500px;
     margin-left: 65px;
+    
 }
 .orange{
     color: orange;
+}
+.marg-top{
+    margin-top: 60px;
 }
 .first{
     border-left: 3px solid;
@@ -20,9 +24,7 @@ body{
     margin-top: 10%;
     
 }
-.topper{
-    margin-left: 50px;
-}
+
 .half-width{
     box-sizing: border-box;
     width: 50%;
@@ -30,15 +32,19 @@ body{
 .button{
     text-decoration: none;
     display:inline-block;
-    margin-top:10px;
+    margin-top:20px;
     padding:10px 20px ;
   background-image: linear-gradient(45deg,orange,pink);
-  border-radius: 50px;
-  color: white;
+  border-radius: 30px;
+  color: rgb(102, 9, 79);
   font-weight: 700;
+  transition: all 2s linear;
+}
+.button:hover{
+    border-radius: 50px 0px 50px 0px;
 }
 .half-width img{
-    width: 420px;
+    width: 350px;
   
 }
 .image{
@@ -47,10 +53,11 @@ body{
     padding-right: 10%;
 }
 .topper2{
-    margin-top:10 px;
-    height: 500px;
+    background-color: rgb(227, 228, 185);
     margin-left: 65px;
-
+    margin-right: 65px;
+   padding:40px;
+   box-sizing: border-box;
 
 }
 .topper2 h1{
@@ -59,7 +66,7 @@ body{
 }
 .third-width{
     width: 30%;
-    height: 300px;
+    
     box-sizing: border-box;
     margin-right: 15px;
     padding:10px;
@@ -94,10 +101,10 @@ body{
     display: flex;
 }
 
-.topper33{
+/* .topper33{
     margin-top: 100px;
     margin-bottom: 100px;
-}
+} */
 .aa img{
     width: 60%;
     padding-left: 40px;
@@ -116,31 +123,65 @@ body{
 }
 .foot{
     text-align: center;
-    height: 100px;
+    height: 150px;
     background-color: black;
     color: white;
     font-weight: 200;
-    font-size: 12px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 12px; 
+    padding-bottom: 5px;
+    padding-top: 2px;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 h2{
+    font-size: 40px;
+}
+h3{
     font-size: 30px;
 }
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
 .own{
+    
     text-align: center;
     padding-top: 20px;
     box-sizing: border-box;
 }
-.last{
-    margin-bottom: 80px;
-}
+
 .own2{
     padding-left: 200px;
     padding-right: 200px;
     display: inline-block;
     box-sizing: border-box;
+    font-weight: 800;
+    font-size: 22px;
+}
+.skills{
+    color: rgb(216, 83, 22);
+}
+.last{
+    background-color: cornsilk;
+    padding-bottom: 15px;
+}
+#html{
+    background-color: rgb(115, 185, 185);
+}
+#html img{
+    border-radius: 50%;
+}
+.white{
+    color: white;
+}
+#css{
+    background-color: rgb(47, 110, 104);
+}
+#js{
+    background-color: rgba(7, 34, 92, 0.575);
+}
+#js img{
+    border-radius: 50%;
+    padding-bottom: 20px;
 }
